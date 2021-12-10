@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  font-family: Neucha, verdana, sans-serif;
+  background-color: #f6f6f6;
+}
+
+
+.cloud1 {
+  position: relative;
+  height: 185px;
+  width: 456px;
+  right: 300px;
+}
+
+.cloud2 {
+  position: absolute;
+  height: 185px;
+  width: 456px;
+  right: 100px;
+  top: 230px;
+}
+
+.cloud3 {
+  position: absolute;
+  height: 185px;
+  width: 456px;
+  left: 100px;
+  top: 400px;
+}
+
+.mountain1 {
+  top: 200px;
+  position: absolute;
+  background-size: cover;
+  left: 0;
+}
+
+.name {
+  font-family: Neucha, sans-serif;
+}
+
+.occupation{
+  font-family: Neucha, sans-serif;
+}
+
+
+h1 {
+  color: Black;
+}
+
+.middle_container{
+margin-top: 680px;
+}
+
+.profile_img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.programing_img{
+  height: 150px;
+  width: 150px;
+}
+
+
+.basketball{
+  height: 150px;
+  width: 150px;
+}
+
+.metrology{
+  height: 150px;
+  width: 150px;
+
+}
