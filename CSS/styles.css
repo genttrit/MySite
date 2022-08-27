@@ -55,15 +55,15 @@ h3 {
 .cloud3 {
   position: absolute;
   right: 13%;
-  top: 25%;
+  top: 55%;
   width: 25%;
 }
 
 .mountain1 {
   position: absolute;
   right:0;
-  width:auto;
-  height:100%;
+  width:100%;
+  height:auto;
 }
 
 .parachute {

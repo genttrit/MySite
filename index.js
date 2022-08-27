@@ -1,9 +1,9 @@
 document.getElementsByClassName('cloud1')[0].style.left = "40%";
 document.getElementsByClassName('cloud1')[0].style.top = "13%";
 document.getElementsByClassName('cloud2')[0].style.left = "0px";
-document.getElementsByClassName('cloud2')[0].style.top = "18%";
+document.getElementsByClassName('cloud2')[0].style.top = "35%";
 document.getElementsByClassName('cloud3')[0].style.right = "13%";
-document.getElementsByClassName('cloud3')[0].style.top = "30%";
+document.getElementsByClassName('cloud3')[0].style.top = "55%";
 document.getElementsByClassName('parachute')[0].style.top = "-100px";
 document.getElementsByClassName('parachute')[0].style.right = "0%";
 
