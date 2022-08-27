@@ -1,126 +1,156 @@
 body {
   text-align: center;
-  font-family: Neucha, verdana, sans-serif;
-  background-color: #DFE8CC;
+  /* font-family: Neucha, verdana, sans-serif; */
+  font-family: 'Nova Square', cursive;
+  background-color: #dddfd9;
 }
 
-.top_container{
+.navbar{
+  z-index: 1;
 }
+
+.navbar-expand{
+  padding-left:10%;
+}
+
+.title {
+  z-index: 2;
+  text-align: left;
+ @include font-size(4rem);
+}
+
+h1 {
+  font-family: 'Nova Square', cursive;
+  color: #344141;
+  /* font-size: 2.625rem; */
+}
+
+h2 {
+  color: #344141;
+  /* font-size: 2rem;
+  font-family: 'Nova Square', cursive;
+  font-weight: normal; */
+}
+
+h3 {
+  font-family: 'Nova Square', cursive;
+  /* font-weight:bolder; */
+}
+
 
 .cloud1 {
-  position: relative;
-  top: 100px;
-  left:330px;
-  width:30vw;
+  position: absolute;
+  top: 13%;
+  left: 40%;
+  width: 30%; /*vw*/
 }
 
 .cloud2 {
-  position: relative;
-  left: 0px;
-  width:55vw;
+  position: absolute;
+  top: 22%;
+  left: 0;
+  width: 35%;
 }
 
 .cloud3 {
-  position: relative;
-  right: 200px;
-  top: 200px;
-  width:25vw;
+  position: absolute;
+  right: 13%;
+  top: 25%;
+  width: 25%;
 }
 
 .mountain1 {
-  position: sticky;
-  background-size: cover;
+  position: absolute;
   left: 0;
-  width:100vw;
-  margin-top:-400px;
+  right:0;
+  top:-13%;
+  bottom: 0;
+  width:100%;
+  height:auto;
 }
 
-.parachute{
+.parachute {
   position: relative;
-  margin-top: 50px;
+  margin-top: 0px;
+  right: 0%;
+  width:7%;
 }
 
-.middle_container{
+.middle_container {
   padding-top: 50px;
   /* background-color: #9FC088; */
-  }
-
-
-h1 {
-  font-family: Neucha, sans-serif;
-  color: #66BFBF;
-  font-size: 2.625rem;
 }
 
-h2
-{
-  color: #66BFBF;
-  font-size: 2rem;
-  font-family: Neucha, sans-serif;
-  font-weight: normal;
+h1,h2,h3,p {
+  padding-left: 100px;
 }
 
-h3{
-   color: #11999E;
+
+
+p {
+  color: #4f5959;
 }
 
-hr{
-  border-top:dotted 5px;
+.logo {
+  font-family: 'Nova Square', cursive;
+}
+
+hr {
+  border-top: dotted 5px;
   margin: auto;
   width: 5%;
 }
 
 
 
-.profile_img{
+.profile_img {
   width: 200px;
   height: 200px;
   border-radius: 100px;
   z-index: 1;
 }
 
-.programing_img{
-    width:25%;
-    float: left;
-    margin-right:30px;
+.programing_img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
 
-.basketball{
+.basketball {
 
-  width:25%;
+  width: 25%;
   float: right;
-  margin-left:30px;
+  margin-left: 30px;
 }
 
-.metrology{
-    width:25%;
-    float: left;
-    margin-right:30px;
+.metrology {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
-.footer{
+.footer {
   font-size: 1.2rem;
-text-decoration:none;
+  text-decoration: none;
   color: #66BFBF;
 }
 
-.skill-row{
-  width:50%;
+.skill-row {
+  width: 50%;
   margin: 10px auto 0 auto;
   text-align: left;
   line-height: 2;
 }
 
 
-.bottom_container
-{
-  padding-top:50px;
+.bottom_container {
+  padding-top: 50px;
   padding-bottom: 50px;
-  background-color:#11999E;
+  background-color: #11999E;
 }
 
-.copyrights{
+.copyrights {
   color: white;
   font-style: italic;
 }
